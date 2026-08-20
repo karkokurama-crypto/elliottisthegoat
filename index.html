@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elliott Is The GOAT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz,wght@6..96,500&family=Caveat:wght@600&family=Chakra+Petch:wght@600&family=Comfortaa:wght@600&family=DM+Mono&family=Fira+Code:wght@500&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Mono:wght@500&family=Inconsolata:wght@600&family=Josefin+Sans:wght@600&family=Kalam:wght@700&family=Lato:wght@700&family=Lobster&family=Manrope:wght@700&family=Michroma&family=Montserrat:wght@700&family=Orbitron:wght@600&family=Oswald:wght@500&family=Pacifico&family=Playfair+Display:wght@600&family=Poiret+One&family=Press+Start+2P&family=Raleway:wght@600&family=Righteous&family=Roboto+Slab:wght@600&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #18221c;
+      --muted: #68756d;
+      --paper: #f5f2e9;
+      --line: #d8d8c9;
+      --accent: #e6ad3c;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Manrope, sans-serif;
+    }
+
+    header {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 7vw 5vw 4vw;
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 700px;
+      font-family: Bebas Neue, sans-serif;
+      font-size: clamp(4rem, 11vw, 10rem);
+      font-weight: 400;
+      line-height: .82;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+    }
+
+    h1 span { color: var(--accent); }
+
+    .count {
+      margin: 0 0 7px;
+      color: var(--muted);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      line-height: 1.5;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    main {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 26px 5vw 7vw;
+    }
+
+    .font-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+      border-top: 1px solid var(--line);
+      border-left: 1px solid var(--line);
+    }
+
+    .sample {
+      min-height: 190px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+    }
+
+    .sample p {
+      margin: 18px 0 14px;
+      font-size: clamp(1.8rem, 3vw, 3rem);
+      line-height: 1;
+      overflow-wrap: anywhere;
+    }
+
+    .label {
+      color: var(--muted);
+      font-family: DM Mono, monospace;
+      font-size: .68rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .sample:nth-child(4n + 1) { background: #fffdf5; }
+    .sample:nth-child(4n + 2) { background: #edf1ea; }
+    .sample:nth-child(4n + 3) { background: #f0ebe1; }
+    .sample:nth-child(4n + 4) { background: #e9eee9; }
+
+    .f1 { font-family: Bodoni Moda, serif; }
+    .f2 { font-family: Caveat, cursive; }
+    .f3 { font-family: Chakra Petch, sans-serif; }
+    .f4 { font-family: Comfortaa, sans-serif; }
+    .f5 { font-family: DM Mono, monospace; }
+    .f6 { font-family: Fira Code, monospace; }
+    .f7 { font-family: Fjalla One, sans-serif; }
+    .f8 { font-family: Great Vibes, cursive; }
+    .f9 { font-family: IBM Plex Mono, monospace; }
+    .f10 { font-family: Inconsolata, monospace; }
+    .f11 { font-family: Josefin Sans, sans-serif; }
+    .f12 { font-family: Kalam, cursive; }
+    .f13 { font-family: Lato, sans-serif; }
+    .f14 { font-family: Lobster, cursive; }
+    .f15 { font-family: Manrope, sans-serif; }
+    .f16 { font-family: Michroma, sans-serif; }
+    .f17 { font-family: Montserrat, sans-serif; }
+    .f18 { font-family: Orbitron, sans-serif; }
+    .f19 { font-family: Oswald, sans-serif; }
+    .f20 { font-family: Pacifico, cursive; }
+    .f21 { font-family: Playfair Display, serif; }
+    .f22 { font-family: Poiret One, sans-serif; }
+    .f23 { font-family: Press Start 2P, cursive; font-size: .94rem !important; line-height: 1.45 !important; }
+    .f24 { font-family: Raleway, sans-serif; }
+    .f25 { font-family: Righteous, sans-serif; }
+    .f26 { font-family: Roboto Slab, serif; }
+    .f27 { font-family: Space Grotesk, sans-serif; }
+    .f28 { font-family: Bebas Neue, sans-serif; }
+
+    @media (max-width: 560px) {
+      header { display: block; padding-top: 14vw; }
+      .count { margin-top: 24px; text-align: left; }
+      .sample { min-height: 160px; padding: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>elliott <span>is the</span> goat</h1>
+    <p class="count">One phrase<br>28 typefaces</p>
+  </header>
+
+  <main>
+    <section class="font-grid" aria-label="Elliott is the goat in 28 different fonts">
+      <article class="sample"><span class="label">01 / Bodoni Moda</span><p class="f1">elliott is the goat</p></article>
+      <article class="sample"><span class="label">02 / Caveat</span><p class="f2">elliott is the goat</p></article>
+      <article class="sample"><span class="label">03 / Chakra Petch</span><p class="f3">elliott is the goat</p></article>
+      <article class="sample"><span class="label">04 / Comfortaa</span><p class="f4">elliott is the goat</p></article>
+      <article class="sample"><span class="label">05 / DM Mono</span><p class="f5">elliott is the goat</p></article>
+      <article class="sample"><span class="label">06 / Fira Code</span><p class="f6">elliott is the goat</p></article>
+      <article class="sample"><span class="label">07 / Fjalla One</span><p class="f7">elliott is the goat</p></article>
+      <article class="sample"><span class="label">08 / Great Vibes</span><p class="f8">elliott is the goat</p></article>
+      <article class="sample"><span class="label">09 / IBM Plex Mono</span><p class="f9">elliott is the goat</p></article>
+      <article class="sample"><span class="label">10 / Inconsolata</span><p class="f10">elliott is the goat</p></article>
+      <article class="sample"><span class="label">11 / Josefin Sans</span><p class="f11">elliott is the goat</p></article>
+      <article class="sample"><span class="label">12 / Kalam</span><p class="f12">elliott is the goat</p></article>
+      <article class="sample"><span class="label">13 / Lato</span><p class="f13">elliott is the goat</p></article>
+      <article class="sample"><span class="label">14 / Lobster</span><p class="f14">elliott is the goat</p></article>
+      <article class="sample"><span class="label">15 / Manrope</span><p class="f15">elliott is the goat</p></article>
+      <article class="sample"><span class="label">16 / Michroma</span><p class="f16">elliott is the goat</p></article>
+      <article class="sample"><span class="label">17 / Montserrat</span><p class="f17">elliott is the goat</p></article>
+      <article class="sample"><span class="label">18 / Orbitron</span><p class="f18">elliott is the goat</p></article>
+      <article class="sample"><span class="label">19 / Oswald</span><p class="f19">elliott is the goat</p></article>
+      <article class="sample"><span class="label">20 / Pacifico</span><p class="f20">elliott is the goat</p></article>
+      <article class="sample"><span class="label">21 / Playfair Display</span><p class="f21">elliott is the goat</p></article>
+      <article class="sample"><span class="label">22 / Poiret One</span><p class="f22">elliott is the goat</p></article>
+      <article class="sample"><span class="label">23 / Press Start 2P</span><p class="f23">elliott is the goat</p></article>
+      <article class="sample"><span class="label">24 / Raleway</span><p class="f24">elliott is the goat</p></article>
+      <article class="sample"><span class="label">25 / Righteous</span><p class="f25">elliott is the goat</p></article>
+      <article class="sample"><span class="label">26 / Roboto Slab</span><p class="f26">elliott is the goat</p></article>
+      <article class="sample"><span class="label">27 / Space Grotesk</span><p class="f27">elliott is the goat</p></article>
+      <article class="sample"><span class="label">28 / Bebas Neue</span><p class="f28">elliott is the goat</p></article>
+    </section>
+  </main>
+</body>
+</html>
